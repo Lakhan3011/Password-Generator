@@ -121,5 +121,10 @@ button {
   h1 {
     font-size: 25px;
     font-weight: 900;
+    display: flex;
+    justify-content: center;
+  }
+  .content {
+    margin: auto;
   }
 }
