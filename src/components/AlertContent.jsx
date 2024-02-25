@@ -9,7 +9,7 @@ const AlertContent = ({ password = " " }) => {
     else if (passwordLength <= 4)
       return "https://media4.giphy.com/media/aaPUKNp0pj52GovPyW/200.webp?cid=790b76116zvray47ck2xw57vtcaxc8ya65zuxvyejsod4pqj&ep=v1_gifs_search&rid=200.webp&ct=g";
     else if (passwordLength <= 8)
-      return "https://media0.giphy.com/media/chc7qdkKqV0OYk0YCF/giphy.webp?cid=790b76116xi4guy2zz5203agqup69oi2qcon5jtx9se803yt&ep=v1_gifs_search&rid=giphy.webp&ct=g";
+      return "https://media.tenor.com/IMbKoo-6nGYAAAAM/star-trek-star-trek-tos.gif";
     else if (passwordLength <= 12)
       return "https://media3.giphy.com/media/l0HlGg4dnCCY8Riww/200.webp?cid=790b7611qp570peu2uev8vedxzx8vz55n6xuq5fwd1xq1gbo&ep=v1_gifs_search&rid=200.webp&ct=g";
     else if (passwordLength <= 16)

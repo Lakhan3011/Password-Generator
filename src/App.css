@@ -29,8 +29,8 @@ h1 {
 .content {
   display: flex;
   justify-content: center;
-  width: 500px !important;
-  height: 150px !important;
+  width: 500px;
+  height: 150px;
   margin: 0 auto;
 }
 
@@ -112,7 +112,7 @@ button {
   font-weight: bold;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   .container {
     width: 90%;
     position: fixed;
@@ -126,6 +126,9 @@ button {
     justify-content: center;
   }
   .content {
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 280px;
   }
 }
